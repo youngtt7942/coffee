@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥨원두 정기 구독</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <nav>
+      <h1 class="logo">원두정기구독</h1>
+      <div>
+        <button class="lang"><i class="fa-solid fa-globe"></i>한국어 <i class="fa-solid fa-caret-down"></i></button>
+        <button>로그인</button>
+      </div>
+    </nav>
+    <div class="header-content">
+       <form class="add-email">
+        <input type="email" placeholder="이메일 주소" required>
+        <button type="submit">보내기</button>
+      </form>
+      <br
+      <h2>🥨매일 특별한 커피 타임</h2>
+      <h3>🥨고객님의 취향에 맞게 스페셜 커피를 즐겨 보세요</h3>
+      <p>🥨이메일 주소를 보내시면 구독 안내문과 새로운 소식들을 보내 드립니다.</p>
+     
+    </div>
+  </header>
+
+  <!-- 배너 -->
+  <section id="banner">
+    <div class="banner-content">
+      <h3>정성을 다해 로스팅한 커피를 매주 보내드립니다</h3>
+      <p>스위커 매장의 맛있는 커피를 집에서도 즐기세요</p>
+      <button>자세히 알아보기</button>
+    </div>
+    <h2>지금 막 로스팅했어요</h2>
+    <select class="select-menu">
+      <option value="light">라이트 로스트</option>
+      <option value="medium">미디엄 로스트</option>
+      <option value="dark">다크 로스트</option>
+      <option value="kakao">카카오 로스트</option>
+    </select>
+  </section>
+
+  <!-- 멤버십 -->
+  <section id="membership">
+    <h2>회원이 되시면</h2>
+    <div class="membership-content">
+      <h3>월간스위커 회원 혜택</h3>
+      <p>스위커 온라인몰 구매 시 커피원두, 드립백 상품 3% 할인</p>
+      <p>스위커 온라인몰 5,000원 상품권 증정</p>
+    </div>
+  </section>  
+
+  <!-- 선택 가이드 -->
+  <section id="choice">
+    <h2>타입별 선택 가이드</h2>
+    <div class="choice-content">
+      <div class="card">
+       <h3>너티드 커피</h3> 
+       <p>고소한, 구수한, 산미가 약한 커피</p>   
+       <div class="bean-img">
+        <img src="images/beans.png" alt="">
+       </div>    
+      </div>
+      <div class="card">
+        <h3>비비드 커피</h3> 
+        <p>꽃, 허브, 과일, 산미가 있는 커피</p>
+        <div class="bean-img">
+          <img src="images/beans.png" alt="">
+         </div>  
+      </div>
+      <div class="card">
+        <h3>다크 커피</h3> 
+        <p>쌉쌀한, 달콤한, 산미가 없는 커피</p>
+        <div class="bean-img">
+          <img src="images/beans.png" alt="">
+         </div>  
+      </div>
+      <div class="card">
+        <h3>로스터가 추천하는 커피</h3>     
+        <div class="bean-img">
+          <img src="images/beans.png" alt="">
+         </div>  
+      </div>
+    </div>
+  </section>  
+
+  <!-- FAQ -->
+  <section id="faq">
+    <h2>자주하는 질문과 답변</h2>
+    <ul class="accordion">
+      <li>
+        <input type="radio" name="accordion" id="first">
+        <label for="first">주문은 어떻게 하나요?</label>
+        <div class="content">          
+          <p>스위커 온라인몰에서 주문하셔도 되고, 000-0000-0000d으로 전화해서 궁금한 것들을 확인한 후 주문하셔도 됩니다.</p>
+        </div>
+      </li>
+      <li>
+        <input type="radio" name="accordion" id="second">
+        <label for="second">주문 용량은 어떻게 되나요?</label>
+        <div class="content">
+          <p>고객님의 취향에 맞는 커피를 매주 또는 격주로 배송합니다. 주문 용량은 원두별로 100g씩, 200g씩 필요한 양을 주문하시면 됩니다. </p>
+          <p>같은 종류의 커피로 200g을 주문할 수도 있고, 다른 종류의 커피로 100g씩 2개를 주문하셔도 됩니다.</p>
+          <p>홈카페를 위한 100g, 200g 포장과 오피스카페를 위한 500g, 1kg 포장이 있습니다. </p>
+        </div>
+      </li>
+      <li>
+        <input type="radio" name="accordion" id="third">
+        <label for="third">언제 배송되나요?</label>
+        <div class="content">
+          <p>매주 목요일에 배송 출발합니다. 제주도내는 금요일에 받으실 수 있고 도외는 토요일에 받으실 수 있습니다. </p>
+          <p>단, 목요일이 공휴일이거나 택배 물량이 몰리는 시즌일 경우 하루 이틀 조정될 수 있습니다.</p>
+        </div>
+      </li>
+      <li>
+        <input type="radio" name="accordion" id="fourth">
+        <label for="fourth">원두 추천해 줄 수 있나요?</label>
+        <div class="content">
+          <p>'로스터가 추천하는 커피'를 선택하시면 고객님과 상담 후 고객님께 맞는 제품으로 매주 혹은 격주로 배송해 드립니다. </p>
+          <p>그 외에 특별히 원하는 원두가 있을 경우 000-0000-0000으로 전화주시면 도와드리겠습니다.</p>
+        </div>
+      </li>
+    </ul>
+    <div class="newsletter">
+      <p>이메일 주소를 보내시면 구독 안내문과 새로운 소식들을 보내 드립니다.</p>
+      <form class="add-email">
+        <input type="email" placeholder="이메일 주소" required>
+        <button type="submit">보내기</button>
+      </form>      
+    </div>
+  </section>  
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="footer-content">
+      <div class="col left">
+        <ul class="footer-nav">
+          <li><a href="#">매장안내</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 취급방침</a></li>
+          <li><a href="#">이용안내</a></li>
+        </ul>
+        <div class="footer-info">
+          <p>상호: 오엔오피(대표 : 정지아)</p>
+          <p>주소 : 경상남도 진주시 충무공동 에나로 100 </p>
+          <p>전화 : 070-111-1234</p>
+          <p>사업자등록번호 : 123-1234-1234</p>
+        </div>
+      </div>
+      <div class="col center">
+        <h2>고객센터</h2>
+        <h3>070-111-1234</h3>
+        <p>월-금 09:00-18:00</p>
+        <ul class="socials">
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="col right">
+        <h2>커뮤니티</h2>
+        <p><a href="#">공지사항</a></p>
+        <p><a href="#">이벤트</a></p>
+        <p><a href="#">상품 Q&A</a></p>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 스테이위드커피. All rights reserved.</p>
+    </div>
+
+  </footer>  
+</body>
+</html>

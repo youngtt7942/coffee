@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>text-decoration 예제</title>
+  <style>
+    .none {
+      text-decoration: none;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .line-through {
+      text-decoration: line-through;
+    }
+
+    .overline {
+      text-decoration: overline;
+    }
+
+    .box {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box none">🚫 text-decoration: none (아무 효과 없음)</div>
+  <div class="box underline">📏 text-decoration: underline (밑줄)</div>
+  <div class="box line-through">❌ text-decoration: line-through (취소선)</div>
+  <div class="box overline">⬆️ text-decoration: overline (윗줄)</div>
+
+  <div class="box">
+    <a href="#" class="none">🔗 링크인데 밑줄 없음 (none)</a>
+  </div>
+
+</body>
+</html>
